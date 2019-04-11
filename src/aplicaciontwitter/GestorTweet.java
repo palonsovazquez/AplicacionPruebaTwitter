@@ -16,7 +16,7 @@ import twitter4j.TwitterFactory;
 
 /**
  *
- * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
+ * @author Pablo Alonso Vazquez pav.vigo@gmail.com
  * 
  * Clase encargada de gestionar los tweets y encapsular el uso de la api.
  * 

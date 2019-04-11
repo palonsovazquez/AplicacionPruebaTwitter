@@ -14,7 +14,7 @@ import javax.swing.JScrollPane;
 
 /**
  *
- * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
+ * @author Pablo Alonso Vazquez pav.vigo@gmail.com
  * 
  * Ventana de ejemplo que muestra los tweet recuperados por el gestor tweet.
  * 

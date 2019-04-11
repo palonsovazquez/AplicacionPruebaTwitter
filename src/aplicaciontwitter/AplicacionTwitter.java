@@ -13,14 +13,14 @@ import twitter4j.auth.*;
 
 /**
  *
- * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
+ * @author Pablo Alonso Vazquez pav.vigo@gmail.com
  */
 public class AplicacionTwitter {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws IOException, TwitterException{
+    public static void main(String[] args) {
 //        GestorTweet gt = new GestorTweet();
 //        
 //        gt.tuitear("tweet de prueba");

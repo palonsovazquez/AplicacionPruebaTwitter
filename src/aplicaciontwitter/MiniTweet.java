@@ -7,7 +7,7 @@ package aplicaciontwitter;
 
 /**
  *
- * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
+ * @author Pablo Alonso Vazquez pav.vigo@gmail.com
  * 
  * Clase que simplifica los tweets de la api y da metodos sencillos de acceso.
  */
