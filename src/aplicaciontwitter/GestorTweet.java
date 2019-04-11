@@ -19,7 +19,7 @@ import twitter4j.TwitterFactory;
  * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
  */
 public class GestorTweet {
-    private Twitter twitter = new TwitterFactory().getInstance();
+    private Twitter twitter = new Autorizacion().getOAuthTwitter();
     public ArrayList<MiniTweet>  getMiniTweets() {
     
         List<Status> rl = null;

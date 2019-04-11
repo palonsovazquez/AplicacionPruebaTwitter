@@ -5,6 +5,7 @@
  */
 package aplicaciontwitter;
 
+import java.io.IOException;
 import java.util.List;
 import twitter4j.*;
 import twitter4j.auth.*;
@@ -19,7 +20,7 @@ public class AplicacionTwitter {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException, TwitterException{
 //        GestorTweet gt = new GestorTweet();
 //        
 //        gt.tuitear("tweet de prueba");
@@ -29,7 +30,9 @@ public class AplicacionTwitter {
 //        
 //        
 //        }
-   new frameMain();
+new Autorizacion();   
+
+new frameMain();
 
     
     
