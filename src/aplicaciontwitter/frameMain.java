@@ -15,6 +15,10 @@ import javax.swing.JScrollPane;
 /**
  *
  * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
+ * 
+ * Ventana de ejemplo que muestra los tweet recuperados por el gestor tweet.
+ * 
+ * 
  */
 public class frameMain extends JFrame{
     JPanel panelContenedorTweets = new JPanel();

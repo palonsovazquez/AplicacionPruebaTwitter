@@ -14,6 +14,9 @@ import javax.swing.JTextField;
 /**
  *
  * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
+ * Panel que formatea los minitweets en elementos de la interfaz grafica.
+ * 
+ * 
  */
 public class panTweet extends JPanel{
     MiniTweet mt;

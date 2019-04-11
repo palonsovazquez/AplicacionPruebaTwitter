@@ -22,7 +22,10 @@ import twitter4j.conf.ConfigurationBuilder;
 
 /**
 *
-* @author Mario Pérez
+* @author Pablo Alonso, basado en el tutorial https://geekytheory.com/tutorial-1-java-twitter/ de Mario Pérez.
+* 
+* 
+* Esta clase genera el objeto tweeter para poder usarlo en el resto de la aplicacion pidiendo las claves de la api y gestionando el pin.
 *
 */
 public class Autorizacion {

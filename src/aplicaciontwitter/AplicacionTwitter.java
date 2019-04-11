@@ -30,7 +30,7 @@ public class AplicacionTwitter {
 //        
 //        
 //        }
-new Autorizacion();   
+  
 
 new frameMain();
 

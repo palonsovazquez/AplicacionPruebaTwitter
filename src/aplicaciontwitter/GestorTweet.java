@@ -17,9 +17,18 @@ import twitter4j.TwitterFactory;
 /**
  *
  * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
+ * 
+ * Clase encargada de gestionar los tweets y encapsular el uso de la api.
+ * 
+ * 
  */
 public class GestorTweet {
     private Twitter twitter = new Autorizacion().getOAuthTwitter();
+    
+    /**
+     * 
+     * @return un ArrayList de Minitweets del home timeline de la cuenta
+     */
     public ArrayList<MiniTweet>  getMiniTweets() {
     
         List<Status> rl = null;
@@ -40,7 +49,9 @@ public class GestorTweet {
 
     return al_miniTweets;
     }
-    
+    /**
+     * Al enviarle un  @param texto lo envia como tweet.
+     */
     public void tuitear(String texto){
         try {
             twitter.updateStatus(texto);
